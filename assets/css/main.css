@@ -1,1 +1,29 @@
+body{
+	margin: 0;
+	box-sizing: border-box;
+	background-color: whitesmoke;
+}
+
+nav{
+	background-color: rgb(160, 64, 160);
+	color: #000;
+}
+
+.lista-pokemones li{
+	margin: 10px;
+    position: relative;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.lista-pokemones .button-poke{
+	background-color: transparent;
+    border: none;
+}
 
