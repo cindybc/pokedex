@@ -4,12 +4,48 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Pokedex</title>
+	<link rel="icon" type="image/png" href="assets/icon/favicon.ico" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-	<script src="assets/js/main.js"></script>
+   <section class="nav-pokedex">
+   	  <nav>
+   	  	 <div class="nav-wrape">
+   	  	      <a href="#" class="brand-logo">Pokedex</a>
+   	  	 	  <ul id="slide-out" class="side-nav">
+                 <li>
+                   <div class="user-view">
+                     <h3>Pokedex</h3>
+                     <div class="divider"></div>
+                   </div>
+                 </li>
+                 <li><a href="#!">Pokémon</a></li>
+                 <li><a href="#">About</a></li>
+              </ul>
+              <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+   	  	 </div>
+   	  </nav>
+   </section>
+   <section class="first">
+   	  <div class="container">
+   	  	<div class="buscar input-field">
+   	  		<input id="search" type="search"">
+   	  		<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+   	  	</div>
+   	  	<div class="pokemones">
+   	  		<ul class="lista-pokemones">
+   	  			<li style="background: linear-gradient(90deg, rgb(168, 184, 32) 50%, rgb(160, 64, 160) 50%);">
+   	  				<button class="button-poke button-img"></button>
+   	  				<span>beedrill</span>
+   	  			</li>
+   	  		</ul>
+   	  	</div>
+   	  </div>
+   </section>
+   <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+   <script src="assets/js/main.js"></script>
 </body>
 </html>
